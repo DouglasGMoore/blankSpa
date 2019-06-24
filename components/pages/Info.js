@@ -11,4 +11,6 @@ currently participating in a Javascript bootcamp through Savvy Coders.</p>
   into AI and deep learning. </p>
 <p class="bio">I am also gaining experience and proficiency on Linux. I have used Centos, Mint, Manjaro, and Ubuntu</p>
 </div>
-`};
+`
+    ;
+}

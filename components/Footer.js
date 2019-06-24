@@ -1,3 +1,3 @@
 export default () => `
-<footer class = 'list'><h2>.redBall productions</h2></footer>`
+<footer class = 'list'><h2>Nowell's Site</h2></footer>`
 ;

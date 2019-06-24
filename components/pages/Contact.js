@@ -1,8 +1,5 @@
 export default () => `
-      <form
-        action="https://formspree.io/douglasg.moore@gmail.com"
-        method="POST"
-      >
+      <form>
         <div>
           <label for="name"
             >Name:<input
@@ -15,7 +12,7 @@ export default () => `
         </div>
         <div>
           <label for="email"
-            >Email:<input class="field" typr="email" name="email" id="email"
+            >Email:<input class="field" typ="email" name="email" id="email"
           /></label>
         </div>
         <div>

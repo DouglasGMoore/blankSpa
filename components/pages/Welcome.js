@@ -1,6 +1,4 @@
 export default function(state){
     return `
-    <div class = 'banner'><h2>Hello! Welcome to my portfolio. Look around and tell me what you think.</h2></div>
-        <div id="globe">
-        </div>
+    <div class = 'banner'><h2>\Hello. My name is Nowell. My kung Fu is better than yours!!!!</h2></div>
     `};

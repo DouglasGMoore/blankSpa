@@ -2,12 +2,9 @@ body {
     width: 100vw;
     height: 95vh;
     margin: 0px;
-    background: black;
-    font-family: "Josefin Slab", serif;
-  
+    background:white;
   }
   footer{
-    color: white;
     bottom: 0px;
     position: fixed;
     padding-left: 10px;
@@ -34,29 +31,17 @@ body {
     justify-content: flex-end;
     position: relative;
     display: inline;
-    color: white;
     list-style: none;
     align-self: center;
   }
   li {
     margin-top: 10px;
     display: flex;
-    font-family: "Josefin Slab", serif;
     align-items: center;
     font-size: 32px;
   }
   a {
     text-decoration: none;
-  }
-  #globe {
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    background: radial-gradient(circle at 50px 50px, red, #000);
   }
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
