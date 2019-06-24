@@ -34,38 +34,3 @@ router
     .on('/', () => render(states.Welcome))
     .resolve();
 
-// axios
-//     .get('https://jsonplaceholder.typicode.com/posts')
-//     .then((response) => {
-//         console.log('before each');
-//         response.data.forEach((post) => states.Blog.posts.push(post));
-//         if(router.lastRouteResolved().params && router.lastRouteResolved().params.path === 'blog'){
-//             render(states.Blog);
-//             console.log(states);
-//         }
-//     });
-
-document.querySelector("#globe").addEventListener("click", function change() {
-  let colors = document.body.style.backgroundColor;
-  console.log(colors);
-  if (colors === "white") {
-    document.body.style.backgroundColor = "black";
-  } else {
-    document.body.style.backgroundColor = "white";
-  }
-});
-
-document.querySelector("#globe").addEventListener("click", function() {
-  let colors = document.body.style.backgroundColor;
-  let x = document.getElementsByClassName("list");
-  var i;
-  if (colors === "white") {
-    for (i = 0; i < x.length; i++) {
-      x[i].style.color = "black";
-    }
-  } else {
-    for (i = 0; i < x.length; i++) {
-      x[i].style.color = "white";
-    }
-  }
-});
