@@ -6,7 +6,7 @@ import * as states from './store';
 
 import { capitalize } from 'lodash';
 import Navigo from 'navigo';
-import axios from 'axios';
+// import axios from 'axios';
 
 // router is required to help our router handle localhost addresses
 const router = new Navigo(window.location.origin);
